@@ -1,28 +1,29 @@
-# Flujo de trabajo
+# Arbetsflöde
 
-## Ramas
+## Grenar
 
 ```
-feature/<nombre>  ──PR──▶  staging  ──PR──▶  main
+feature/<namn>  ──PR──▶  staging  ──PR──▶  main
 ```
 
-- `main`: versión estable. **Nunca** se hace push directo.
-- `staging`: integración y pruebas. Todo cambio entra aquí primero.
-- `feature/*`, `fix/*`: ramas de trabajo, creadas desde `staging`.
+- `main`: stabil version. Direkt push är **aldrig** tillåten.
+- `staging`: integration och testning. Alla ändringar hamnar här först.
+- `feature/*`, `fix/*`, `docs/*`: arbetsgrenar som skapas från `staging`.
 
-## Reglas
+## Regler
 
-1. Crea tu rama desde `staging`: `git checkout staging && git pull && git checkout -b feature/mi-cambio`
-2. Abre el PR hacia `staging`. El CI (lint, typecheck, build) debe pasar.
-3. Cuando `staging` esté estable, se abre un PR `staging → main`.
-4. El CI rechaza cualquier PR a `main` que no venga de `staging`.
+1. Skapa din gren från `staging`: `git checkout staging && git pull && git checkout -b feature/min-andring`
+2. Öppna en PR mot `staging`. CI (lint, typkontroll, bygge) måste gå igenom.
+3. När `staging` är stabil öppnas en PR `staging → main`.
+4. CI avvisar alla PR:er mot `main` som inte kommer från `staging`.
+5. Dokumentation, commit-meddelanden och PR:er skrivs på svenska.
 
-## Comandos
+## Kommandon
 
 ```bash
 npm install
-npm run dev        # servidor de desarrollo
+npm run dev        # utvecklingsserver
 npm run lint       # oxlint
 npm run typecheck  # tsc
-npm run build      # build de producción
+npm run build      # produktionsbygge
 ```
