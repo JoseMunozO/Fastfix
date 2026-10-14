@@ -1,11 +1,16 @@
-# Documentación — Fastfix (Frontend)
+# Dokumentation — Fastfix (Frontend)
 
-Este repositorio contiene la parte **frontend** de Fastfix. La otra parte del proyecto vive en un repositorio separado.
+Det här repot innehåller **frontend**-delen av Fastfix. Den andra delen av projektet finns i ett separat repo.
 
-| Carpeta | Contenido |
-|---------|-----------|
-| `mockups/` | Bocetos y prototipos de interfaz |
-| `mvp/` | Alcance y requisitos del Producto Mínimo Viable |
-| `dod/` | Definition of Done del equipo |
+| Mapp | Innehåll |
+|------|----------|
+| `mockups/` | Skisser och gränssnittsprototyper |
+| `mvp/` | Omfattning och krav för den minsta livskraftiga produkten (MVP) |
+| `dod/` | Teamets Definition of Done |
 
-Ver también [CONTRIBUTING.md](CONTRIBUTING.md) para el flujo de ramas.
+Se även [CONTRIBUTING.md](CONTRIBUTING.md) för grenflödet.
+
+## Språk
+
+- All dokumentation skrivs på **svenska** (engelska är också tillåtet).
+- Dokument på andra språk ska ha språkkoden i filnamnet, t.ex. `anteckningar.es.md`. Sådana filer ignoreras automatiskt av git och stannar lokalt.

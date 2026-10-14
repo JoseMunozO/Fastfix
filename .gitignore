@@ -23,14 +23,19 @@ dist-ssr
 *.sln
 *.sw?
 
-# Herramientas de IA / notas locales (no se versionan)
+# AI-verktyg / lokala anteckningar (versioneras inte)
 CLAUDE.md
 CLAUDE.local.md
 docs/CLAUDE.md
 .claude/
 
-# Entorno
+# Miljö
 .env
 .env.*
 !.env.example
 coverage
+
+# Dokument på andra språk än svenska/engelska (namnges *.<språkkod>.md)
+*.??.md
+!*.sv.md
+!*.en.md
