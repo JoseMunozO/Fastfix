@@ -49,7 +49,7 @@ Därefter (Bör): kommentarer, bilduppladdning, filter och sök, översikt för 
 
 | Del | Teknik |
 |-----|--------|
-| Frontend (det här repot) | React 19, TypeScript, Vite, oxlint |
+| Frontend (det här repot) | React 19, TypeScript, Vite, ESLint |
 | Backend (separat repo) | Spring Boot, Spring Security + JWT |
 | Databas | PostgreSQL |
 | CI | GitHub Actions: lint, typkontroll och bygge |
@@ -71,7 +71,7 @@ Appen startar på http://localhost:5173.
 | Kommando | Gör |
 |----------|-----|
 | `npm run dev` | Startar utvecklingsservern |
-| `npm run lint` | Kör oxlint |
+| `npm run lint` | Kör ESLint |
 | `npm run typecheck` | Kontrollerar typer med TypeScript |
 | `npm run build` | Bygger för produktion |
 | `npm run preview` | Förhandsvisar produktionsbygget |
