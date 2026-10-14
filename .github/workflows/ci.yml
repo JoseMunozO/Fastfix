@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [staging, main]
+  pull_request:
+    branches: [staging, main]
+
+jobs:
+  build:
+    name: Lint, typecheck y build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run build
+
+  # Regla: solo se puede hacer PR a main desde staging
+  enforce-staging:
+    name: PR a main debe venir de staging
+    if: github.event_name == 'pull_request' && github.base_ref == 'main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verificar rama de origen
+        run: |
+          if [ "${{ github.head_ref }}" != "staging" ]; then
+            echo "::error::Los PR a main solo pueden venir de 'staging' (origen actual: ${{ github.head_ref }})"
+            exit 1
+          fi
