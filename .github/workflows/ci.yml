@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Lint, typecheck y build
+    name: Lint, typkontroll och bygge
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,15 +21,15 @@ jobs:
       - run: npm run typecheck
       - run: npm run build
 
-  # Regla: solo se puede hacer PR a main desde staging
+  # Regel: PR:er mot main får endast komma från staging
   enforce-staging:
-    name: PR a main debe venir de staging
+    name: PR mot main måste komma från staging
     if: github.event_name == 'pull_request' && github.base_ref == 'main'
     runs-on: ubuntu-latest
     steps:
-      - name: Verificar rama de origen
+      - name: Kontrollera källgren
         run: |
           if [ "${{ github.head_ref }}" != "staging" ]; then
-            echo "::error::Los PR a main solo pueden venir de 'staging' (origen actual: ${{ github.head_ref }})"
+            echo "::error::PR:er mot main får endast komma från 'staging' (nuvarande källgren: ${{ github.head_ref }})"
             exit 1
           fi
