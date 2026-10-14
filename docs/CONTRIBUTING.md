@@ -16,7 +16,7 @@ feature/<namn>  ──PR──▶  staging  ──PR──▶  main
 2. Öppna en PR mot `staging`. CI (lint, typkontroll, bygge) måste gå igenom.
 3. När `staging` är stabil öppnas en PR `staging → main`.
 4. CI avvisar alla PR:er mot `main` som inte kommer från `staging`.
-5. Dokumentation, commit-meddelanden och PR:er skrivs på svenska.
+5. Dokumentation skrivs på svenska. Commit-meddelanden och PR:er skrivs på engelska.
 
 ## Kommandon
 
