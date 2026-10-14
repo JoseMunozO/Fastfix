@@ -91,15 +91,24 @@ Omfattning
 - Statistik: snittid till åtgärd
 - CI/CD med GitHub Actions
 
+### Inte nu (Won't)
+
+- Mobilapp (webbappen ska i stället fungera i mobilbredd)
+- SMS-notiser
+- Chatt i realtid mellan hyresgäst och tekniker
+- Tidsbokning av besök i en kalender
+- Fakturering av reparationer
+- Integration med befintliga fastighetssystem
+
 Backlog
 
 ## Exempel på user stories
 
-Med acceptanskriterier och estimering i story points. Detta blir startpunkten för vår backlog i GitHub Projects.
+Med acceptanskriterier och estimering i klädstorlekar (S, M, L). Detta blir startpunkten för vår backlog i GitHub Projects.
 
 Som hyresgäst vill jag skapa en felanmälan så att felet i min lägenhet blir åtgärdat.
 
-5 p
+Storlek: M
 
 - **Givet** att jag är inloggad **när** jag fyller i kategori och beskrivning **då** skapas ärendet med status "Ny".
 - Ärendet syns direkt i listan "Mina ärenden".
@@ -107,7 +116,7 @@ Som hyresgäst vill jag skapa en felanmälan så att felet i min lägenhet blir 
 
 Som förvaltare vill jag tilldela ett ärende till en tekniker så att rätt person tar hand om det.
 
-3 p
+Storlek: M
 
 - Bara användare med rollen förvaltare kan tilldela.
 - Status ändras automatiskt till "Tilldelad".
@@ -115,7 +124,7 @@ Som förvaltare vill jag tilldela ett ärende till en tekniker så att rätt per
 
 Som tekniker vill jag ändra status på ett ärende så att hyresgästen vet hur det går.
 
-3 p
+Storlek: M
 
 - Varje ändring sparas i historiken med tid och vem som ändrade.
 - Teknikern kan bara ändra ärenden som är tilldelade till hen.
@@ -123,7 +132,7 @@ Som tekniker vill jag ändra status på ett ärende så att hyresgästen vet hur
 
 Som hyresgäst vill jag ange om huvudnyckel får användas så att teknikern kan komma in när jag inte är hemma.
 
-2 p
+Storlek: S
 
 - Valet Ja/Nej är obligatoriskt när ärendet skapas.
 - Valet syns tydligt för teknikern på ärendet.
