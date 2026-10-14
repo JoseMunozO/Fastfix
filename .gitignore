@@ -39,3 +39,6 @@ coverage
 *.??.md
 !*.sv.md
 !*.en.md
+
+# Interna gruppdokument (delas utanför GitHub)
+docs/gruppkontrakt.md

@@ -5,8 +5,8 @@ Det här repot innehåller **frontend**-delen av Fastfix. Den andra delen av pro
 | Mapp | Innehåll |
 |------|----------|
 | `mockups/` | Skisser och gränssnittsprototyper |
-| `mvp/` | Omfattning och krav för den minsta livskraftiga produkten (MVP) |
-| `dod/` | Teamets Definition of Done |
+| `mvp/` | [Projektförslag](mvp/projektforslag-felanmalan.md) och [frontendplan](mvp/frontend-plan.md) för MVP |
+| `dod/` | Teamets [Definition of Done](dod/definition-of-done.md) |
 
 Se även [CONTRIBUTING.md](CONTRIBUTING.md) för grenflödet.
 
