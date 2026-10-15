@@ -108,6 +108,7 @@ Mer information i [CONTRIBUTING.md](docs/CONTRIBUTING.md).
 | Dokument | Innehåll |
 |----------|----------|
 | [Projektförslag](docs/mvp/projektforslag-felanmalan.md) | Bakgrund, roller, user stories, databasschema och risker |
+| [User stories](docs/mvp/user-stories.md) | Ordnad backlog med acceptanskriterier, prioritet och storlek (utkast) |
 | [Frontendplan](docs/mvp/frontend-plan.md) | Vyer per roll, mappstruktur, plan per sprint och öppna frågor |
 | [Definition of Done](docs/dod/definition-of-done.md) | När en user story räknas som klar (utkast) |
 | [Mockups](docs/mockups/) | Skisser av gränssnittet |
