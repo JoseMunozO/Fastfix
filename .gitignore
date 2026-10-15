@@ -27,6 +27,7 @@ dist-ssr
 # AI-verktyg / lokala anteckningar (versioneras inte)
 CLAUDE.md
 CLAUDE.local.md
+AGENTS.md
 docs/CLAUDE.md
 .claude/
 
