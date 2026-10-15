@@ -8,7 +8,7 @@ Det här repot innehåller **frontend**-delen av Fastfix. Den andra delen av pro
 | `mvp/` | [Projektförslag](mvp/projektforslag-felanmalan.md) och [frontendplan](mvp/frontend-plan.md) för MVP |
 | `dod/` | Teamets [Definition of Done](dod/definition-of-done.md) |
 
-Se även [CONTRIBUTING.md](CONTRIBUTING.md) för grenflödet.
+Se även [CONTRIBUTING.md](CONTRIBUTING.md) för grenflödet och [uppstart.md](uppstart.md) för hur det slutliga repot sätts upp i organisationen.
 
 ## Språk
 
