@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+node_modules.nosync
 dist
 dist-ssr
 *.local
@@ -26,6 +27,7 @@ dist-ssr
 # AI-verktyg / lokala anteckningar (versioneras inte)
 CLAUDE.md
 CLAUDE.local.md
+AGENTS.md
 docs/CLAUDE.md
 .claude/
 
@@ -42,3 +44,6 @@ coverage
 
 # Interna gruppdokument (delas utanför GitHub)
 docs/gruppkontrakt.md
+
+# Lokalt material för att slutföra arbetet (versioneras inte)
+docs/resurser/

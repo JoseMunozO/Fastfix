@@ -23,7 +23,7 @@ feature/<namn>  ──PR──▶  staging  ──PR──▶  main
 ```bash
 npm install
 npm run dev        # utvecklingsserver
-npm run lint       # oxlint
+npm run lint       # ESLint
 npm run typecheck  # tsc
 npm run build      # produktionsbygge
 ```
