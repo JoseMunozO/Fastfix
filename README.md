@@ -49,7 +49,7 @@ Därefter (Bör): kommentarer, bilduppladdning, filter och sök, översikt för 
 
 | Del | Teknik |
 |-----|--------|
-| Frontend (det här repot) | React 19, TypeScript, Vite, oxlint |
+| Frontend (det här repot) | React 19, TypeScript, Vite, ESLint |
 | Backend (separat repo) | Spring Boot, Spring Security + JWT |
 | Databas | PostgreSQL |
 | CI | GitHub Actions: lint, typkontroll och bygge |
@@ -71,7 +71,7 @@ Appen startar på http://localhost:5173.
 | Kommando | Gör |
 |----------|-----|
 | `npm run dev` | Startar utvecklingsservern |
-| `npm run lint` | Kör oxlint |
+| `npm run lint` | Kör ESLint |
 | `npm run typecheck` | Kontrollerar typer med TypeScript |
 | `npm run build` | Bygger för produktion |
 | `npm run preview` | Förhandsvisar produktionsbygget |
@@ -108,6 +108,7 @@ Mer information i [CONTRIBUTING.md](docs/CONTRIBUTING.md).
 | Dokument | Innehåll |
 |----------|----------|
 | [Projektförslag](docs/mvp/projektforslag-felanmalan.md) | Bakgrund, roller, user stories, databasschema och risker |
+| [User stories](docs/mvp/user-stories.md) | Ordnad backlog med acceptanskriterier, prioritet och storlek (utkast) |
 | [Frontendplan](docs/mvp/frontend-plan.md) | Vyer per roll, mappstruktur, plan per sprint och öppna frågor |
 | [Definition of Done](docs/dod/definition-of-done.md) | När en user story räknas som klar (utkast) |
 | [Mockups](docs/mockups/) | Skisser av gränssnittet |
